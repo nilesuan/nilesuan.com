@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "name": "nilesuan-com",
+  "description": "Build tooling for nilesuan.com (used inside Docker only)",
+  "dependencies": {
+    "tailwindcss": "^4",
+    "@tailwindcss/cli": "^4",
+    "@tailwindcss/typography": "^0.5"
+  }
+}

@@ -1,0 +1,14 @@
+services:
+  dev:
+    build:
+      context: .
+      target: dev
+    ports:
+      - "8000:8000"
+    environment:
+      - MKDOCS_WATCH_POLLING=1
+    volumes:
+      - ./docs:/app/docs
+      - ./theme:/app/theme
+      - ./mkdocs.yml:/app/mkdocs.yml
+      - ./entrypoint-dev.sh:/app/entrypoint-dev.sh

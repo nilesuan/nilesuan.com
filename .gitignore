@@ -1,0 +1,22 @@
+# Build output
+site/
+
+# Node
+node_modules/
+
+# Tailwind compiled output
+theme/css/output.css
+docs/css/output.css
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

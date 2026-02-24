@@ -1,0 +1,26 @@
+site_name: Nile Suan
+site_url: https://nilesuan.com
+site_description: Personal blog of Nile Suan
+
+theme:
+  name: null
+  custom_dir: theme
+
+nav:
+  - Home: index.md
+  - Blog:
+      - blog/posts/squishy-humans-need-not-apply.md
+
+extra_css:
+  - css/output.css
+
+markdown_extensions:
+  - meta
+  - toc:
+      permalink: true
+  - tables
+  - fenced_code
+  - codehilite:
+      guess_lang: false
+  - admonition
+  - attr_list
