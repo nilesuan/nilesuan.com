@@ -31,7 +31,7 @@ Site serves at http://localhost:8000. The entrypoint runs Tailwind in watch mode
 ## Blog Posts
 
 - Create new posts in `docs/blog/posts/`
-- Add each post to the `nav` section in `mkdocs.yml`
+- Add each post to the `nav` section in `mkdocs.yml` — **newest first** (descending by date), as the homepage renders posts in nav order
 - Required frontmatter:
   ```yaml
   ---
