@@ -10,6 +10,7 @@ nav:
   - Home: index.md
   - Blog:
       - blog/posts/squishy-humans-need-not-apply.md
+      - blog/posts/cashing-in.md
 
 extra_css:
   - css/output.css
